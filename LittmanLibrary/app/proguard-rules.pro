@@ -19,3 +19,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-keep class edu.njit.littmanapp.model.** { *; }
+-keep class edu.njit.littmanapp.data.db.LocationModel.** { *; }
+-keepclassmembers class * {
+   @com.google.gson.annotations.SerializedName <fields>;
+}

@@ -1,6 +1,23 @@
 <resources>
-    <string name="app_name">LittmanLibrary</string>
+    <string name="app_name">Littman Library</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_font">Font Size</string>
+    <string name="menu_mode">Dark Mode</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_about">About</string>
+
+    <!-- Bottom Navigation -->
     <string name="title_home">Home</string>
     <string name="title_search">Search</string>
-    <string name="title_services">Services</string>
+    <string name="title_services">Service</string>
+
+    <string name="GPSAlertDialogTitle">Alert</string>
+    <string name="GPSAlertDialogMessage">Please turn on your location</string>
+    <string name="cancel">Cancel</string>
 </resources>

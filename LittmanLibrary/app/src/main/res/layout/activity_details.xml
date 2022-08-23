@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/two"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <edu.njit.littmanapp.ui.helper.PoppinsBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Urban Machines: Public Space in Digital Culture"/>
+
+            <edu.njit.littmanapp.ui.helper.PoppinsRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marcella Del Signore, Gernot Riether"/>
+
+            <edu.njit.littmanapp.ui.helper.PoppinsMedium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book"/>
+
+            <edu.njit.littmanapp.ui.helper.PoppinsRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2018"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <edu.njit.littmanapp.ui.helper.PoppinsRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location Items: Littman Library \nNot Available , Littman Library Stacks \nTH438.13 .D45 2018 \n(1 copy, 0 available, 0 requests)"/>
+
+        <edu.njit.littmanapp.ui.helper.PoppinsBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:layout_marginTop="10dp"/>
+
+        <edu.njit.littmanapp.ui.helper.PoppinsRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title: Urban Machines : public space in a digital culture"/>
+
+        <edu.njit.littmanapp.ui.helper.PoppinsRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject: City planning -- Information technology\n Architecture -- Technological innovations \nCity planning -- Technological innovations \nDigital communications -- Social aspects \nInformation technology -- Social aspects \nPublic spaces"/>
+    </LinearLayout>
+
+
+</LinearLayout>

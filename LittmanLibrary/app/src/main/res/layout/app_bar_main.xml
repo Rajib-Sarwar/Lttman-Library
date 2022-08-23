@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/content_view">
+    android:id="@+id/content_view"
+    tools:context="edu.njit.littmanapp.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_main"
@@ -16,15 +18,16 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@android:color/white"
             app:titleTextColor="@android:color/black"
+            app:popupTheme="@style/ToolBarStyle"
             android:layoutDirection="ltr"
             android:layout_alignParentStart="true">
 
-            <TextView
+            <edu.njit.littmanapp.ui.helper.PoppinsBold
                 android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:text="Home"
+                android:text="Map"
                 android:textSize="28dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
@@ -38,12 +41,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:layout_marginEnd="15dp"
-                android:src="@drawable/ic_menu"/>
+                android:src="@drawable/menu"/>
 
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 
-<!--    <include layout="@layout/content_main" />-->
+    <include layout="@layout/content_main" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
